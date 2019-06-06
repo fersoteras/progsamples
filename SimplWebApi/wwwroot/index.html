@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Very basic Blog </title>
+    <style>
+
+        input[type='submit'], button, [aria-label] {
+            cursor: pointer;
+        }
+
+        #spoiler {
+            display: none;
+        }
+
+        table {
+            font-family: Arial, sans-serif;
+         
+        }
+
+        th {
+            background-color: #0066CC;
+            color: white;
+        }
+
+        td {
+           
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1> Very basic Blog</h1>
+
+<div id="blogpostEditor">
+
+    <h3>Add   blog entry</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <table>
+            <tr>
+                <div> 
+                  <h5>Blog entry Tilte:</h5><input type="text" id="add-title"></div>
+              
+            </tr>
+            <tr>
+                <h5>Blog entry Content:</h5>
+                <textarea name="addBlogPostTextArea" id="add-content" cols="40" rows="5" placeholder="Edit new blogpost here"></textarea>
+            </tr>
+            <tr>
+                <input type="submit" value="Add blog entry">
+            </tr>
+
+
+        </table>
+     
+    </form>
+
+</div>
+
+
+
+<p id="counter"></p>
+
+<table> 
+    <tbody id="blogEntries"></tbody>
+</table>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+   <script src="site.js"></script>
+</body>
+</html>
