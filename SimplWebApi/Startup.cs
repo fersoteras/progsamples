@@ -17,6 +17,7 @@ namespace SimplWebApi
 {
     public class Startup
     {
+        // netcore uses IConfig for inbuilt dependency injection.
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;

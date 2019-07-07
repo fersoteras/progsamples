@@ -22,7 +22,7 @@ namespace SimplWebApi.Controllers
             if (_context.BlogPostItems.Count() == 0)
             {
                 // Create a new BlogPost if collection is empty,
-                _context.BlogPostItems.Add(new BlogPost { Title = "Wellcome to SimpleBlog Engine", Content = " This is a very basic blog engine with  x feature and y feature <br />  It has a simple web editor to edit multi-line blog entries.If you  have bug reports and suggestion pleas email to  nonmaintained@dontbother.com " });
+                _context.BlogPostItems.Add(new BlogPost { Title = "Wellcome to SimpleBlog Engine", Content = " This is a very basic blog engine with  x feature and y feature   It has a simple web editor to edit multi-line blog entries. If you  have bug reports and suggestion please email to  nonmaintained@dontbother.com " });
                 _context.SaveChanges();
             }
         }

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplWebApi", "SimplWebApi\SimplWebApi.csproj", "{CE130B3D-A714-4FC6-A3E5-BE90B609A607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplWebApi", "SimplWebApi\SimplWebApi.csproj", "{CE130B3D-A714-4FC6-A3E5-BE90B609A607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{D1CCDE26-AB27-40A1-AB84-AB0FC64814F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{AE739851-0C3F-4A46-AEE2-08EBF2027A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38ECABC7-AFBE-4C36-A037-FBC314EDFE67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

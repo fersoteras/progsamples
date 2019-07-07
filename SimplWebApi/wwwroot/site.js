@@ -34,8 +34,8 @@ function getData() {
             $.each(data, function (key, item) {
                 const tr = $("<tr></tr>")
                    
-                    .append($("<tr></tr>").text(item.title))
-                    .append($("<tr></tr>").text(item.content))
+                    .append($("<tr><div </tr>").text(item.title))
+                    .append($("<tr><</tr>").text(item.content))
                     .append(
                         $("<td></td>").append(
                             $("<button>Edit</button>").on("click", function () {
