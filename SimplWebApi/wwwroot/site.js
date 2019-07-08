@@ -96,7 +96,7 @@ function deleteItem(id) {
     });
     // </snippet_AjaxDelete>
 }
-
+// coment added as required by hotfix ticket description.
 function editItem(id) {
     $.each(todos, function (key, item) {
         if (item.id === id) {
