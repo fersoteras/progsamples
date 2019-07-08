@@ -97,16 +97,16 @@ function deleteItem(id) {
     // </snippet_AjaxDelete>
 }
 
-//function editItem(id) {
-//    $.each(todos, function (key, item) {
-//        if (item.id === id) {
-//            $("#edit-name").val(item.name);
-//            $("#edit-id").val(item.id);
-//            $("#edit-isComplete")[0].checked = item.isComplete;
-//        }
-//    });
-//    $("#spoiler").css({ display: "block" });
-//}
+function editItem(id) {
+    $.each(todos, function (key, item) {
+        if (item.id === id) {
+            $("#edit-name").val(item.name);
+            $("#edit-id").val(item.id);
+            $("#edit-isComplete")[0].checked = item.isComplete;
+        }
+    });
+    $("#spoiler").css({ display: "block" });
+}
 
 //$(".my-form").on("submit", function () {
 //    const item = {
